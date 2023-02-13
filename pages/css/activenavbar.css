@@ -1,0 +1,81 @@
+html,
+body {
+
+  font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+.card {
+  width: 400px;
+  display: grid;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.card__header {
+  display: flex;
+}
+
+.card__profile-img {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card__meta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  font-size: 1em;
+}
+
+.card__meta__displayname {
+  font-weight: 700;
+}
+
+.card__meta__username {
+  color: #999;
+  font-size: 0.85em;
+}
+
+.card__meta__timestamp {
+  color: #aaa;
+  margin-top: 0.25em;
+  font-size: 0.8em;
+}
+
+.card__menu {
+  color: #aaa;
+  font-size: 1.5em;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 0.25em;
+}
+
+.card__body {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.card__footer {
+  display: flex;
+  color: #666;
+}
+
+.card__footer__comment {
+  margin-left: 1em;
+}
+
+.card__footer__share {
+  margin-left: auto;
+  margin-right: 0.5em;
+  color: #999;
+}

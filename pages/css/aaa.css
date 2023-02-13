@@ -1,0 +1,108 @@
+body {
+    margin: 1rem;
+}
+
+#popupMessage {
+    display: none;
+}
+
+@media only screen and (max-width: 560px) {
+    #popupMessage {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #0d6efd;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    #message {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        color: black;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+.mavi {
+    color: #0d6efd;
+}
+
+body,
+#tweet,
+#experience,
+#roadAndEducation,
+#projects {
+    background-color: black;
+}
+
+#pImg {
+    bottom: 4rem;
+    left: 2rem;
+    width: 19%;
+}
+
+#Pdown {
+    bottom: 4rem;
+    left: 2rem;
+}
+
+#icoHover {
+
+    padding: 0.4rem;
+}
+
+#icoHover:hover {
+    background-color: #c4c4c4;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+/*main nav*/
+
+#mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: none;
+    color: #fff;
+}
+
+#mainNav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-bottom: 2px solid transparent;
+}
+
+#mainNav a.active {
+    border-bottom: 2px solid rgb(29, 155, 240);
+}
+
+@media (max-width: 600px) {
+    #mainNav {
+        width: 89%;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+    }
+}
+
+.card {
+    background-color: #eee;
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* Main nav */

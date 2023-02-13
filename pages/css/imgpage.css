@@ -1,0 +1,30 @@
+body {
+    margin: 10rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+img {
+    width: 13rem;
+}
+
+header {
+    position: relative;
+    bottom: 9rem;
+    right: 7rem;
+}
+
+#icoHover {
+
+    padding: 0.4rem;
+}
+
+#icoHover:hover {
+    background-color: #c4c4c4;
+    border-radius: 100%;
+    opacity: 0.8;
+}
